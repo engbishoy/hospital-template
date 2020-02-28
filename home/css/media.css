@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*home page*/
+@media(min-width:991px) and (max-width:1199px){
+	
+	/*footer form*/
+.login-input .input-group {
+	width: 280px;
+	}
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+	.navbar-default .form-control {
+    width: 165px;
+	}
+	.welcome h1 {
+    font-size: 42px;
+}
+	.forms select{
+		margin-bottom: 20px
+	}
+	.why img{
+		margin-top:28px;
+	}
+	.blog hr {
+    width: 167px;
+
+	}
+	.login-input .input-group {
+    width: 200px;
+	}
+	.footer .menu-right{
+		float: none
+	}
+	.footer .two-st li {
+    margin-bottom: 10px;
+    font-size: 14px;
+	}
+	
+}
+
+@media(min-width:266px) and (max-width:645px){
+	.header .right{
+		display: none
+	}
+	
+}
+
+@media(min-width:266px) and (max-width:767px){
+	.make_appoiment .forms{
+		padding-left: 0
+	}
+ .forms{
+		text-align: center;
+				padding-left: 0
+
+	}
+	.forms .input-group{
+		margin: auto
+	}
+	.forms select{
+		margin-bottom: 20px
+	}
+	.about img{
+		margin: auto
+	}
+	.blog{
+		text-align: center
+	}
+	.blog h4, p {
+    padding-left: 0px;
+}
+	.blog hr {
+    width: 167px;
+
+	}
+	
+	
+	.chat{
+		right: -555px
+	}
+
+}
+
+@media(min-width:266px) and (max-width:380px){
+	.our-team .doctors .doctor button {
+    padding: 5px 9px;
+	}
+}
+@media(min-width:266px) and (max-width:395px){
+	.make_appoiment .forms .input-group input{
+		width: 200px
+	}
+	.forms select{
+		width: 225px
+	}
+	.login-input .input-group{
+		width: 235px
+	}
+	
+	
+.chat{
+		right: -555px
+	}
+}
+
+@media(min-width:266px) and (max-width:308px){
+
+	
+
+.login-input .input-group {
+    width: 195px;
+}
+	.footer .menu-right{
+		float: none
+	}
+	.footer .two-st li {
+    margin-bottom: 10px;
+    font-size: 14px;
+	}
+	
+
+}
+
+
+
+
+/* page services*/
+
+@media(max-width:306px){
+	.slider .left-slide h1{
+		font-size: 36px
+	}
+}

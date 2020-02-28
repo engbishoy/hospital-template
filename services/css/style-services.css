@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slider{
+background:#d3d3d3;
+	padding-top: 30px;
+	padding-bottom: 0px
+}
+.slider .left-slide{
+	margin-top: 50px;
+}
+.welcome{
+	padding-top: 50px;
+	padding-bottom: 50px;
+overflow: hidden
+}
+.address h3{
+	padding-left: 25px;
+	 border-left: 2px solid #0e89f1;
+    color: #545454;
+}
+.address p{
+	padding-left: 25px
+	}
+
+.address h3 span{
+	color: #0e89f1;
+	font-weight: bold
+}
+
+.welcome .search {
+    padding: 10px 15px;
+    background: #a990d2;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.welcome .search i{
+	color: #a990d2;
+	background: white;
+	padding: 15px;
+	border-radius: 100%
+}
+.welcome .book{
+	background: #01d8da;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-align: center
+}
+.welcome .book i{
+	color: #01d8da;
+	background: white;
+	padding: 15px;
+	border-radius: 100%
+}
+
+
+
+
+.why{
+		background: #2d3035;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden
+}
+.why .things{
+	color: #adacac;
+    font-size: 21px;
+}
+
+.your-first{
+	margin-top: 20px;
+	background:rgba(228,228,228,1.00);
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.your-first button{
+	    margin-top: 18px;
+    background: #FF3700;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.most{
+	padding-top: 50px;
+	padding-bottom: 150px;
+	overflow: hidden;
+}
+.most .photo{
+	margin-bottom: 20px;
+		border: 1px solid rgba(211,211,211,1.00);
+	border-radius: 5px;
+	padding-bottom: 40px;
+	box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 0px 6px 11px 0px rgb(188, 188, 189);
+	
+}
+.most .describe{
+	padding-left: 20px;
+}
+.most .describe button{
+	    border-radius: 30px;
+    background: white;
+    color: #ff3700;;
+    border: 1px solid #ff3700;;
+    padding: 10px 20px;
+
+}
+.describe button:hover{
+	background: #ff3700;
+	color: white
+}
+
+
+
+
+.footer{
+	background:  #E3E3E3;
+	padding-top: 70px;
+	padding-bottom: 40px;
+
+}
+
+.login-input{
+	margin-top: -123px;
+	margin-bottom: 65px;
+		box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 1px 0px 13px 2px rgb(188, 188, 189);
+	background: white;
+	border: 1px solid rgba(239,239,239,1.00);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+
+}
+
+.login-input .input-group{
+	width: 330px;
+    margin: auto;
+}
+ 
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn{
+	border-radius: 50px
+}

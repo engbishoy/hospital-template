@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+    background: #005094;
+	padding-top: 10px;
+	padding-bottom: 60px
+}
+.header .logo img{
+	height: 64px;
+	float: left
+}
+.header .right {
+float: right;
+	padding-top: 23px;
+	color: white
+}
+.navbar-default{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background: none;
+	border: none;
+	margin-top: -68px;
+
+	
+}
+.navbar-default .navbar-toggle {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+	border-radius: 5px;
+	box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 1px 0px 35px 2px rgb(166, 166, 169)
+	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background:none;
+	padding-bottom: 25px;
+	
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: none;
+    padding-bottom: 25px;
+}
+.dropdown-menu{
+	margin-top: 20px
+}
+.dropdown-menu li a{
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-o-transition:padding .5s ease;
+	transition:padding .5s ease;
+
+}
+.dropdown-menu li a:hover{
+	background: #005094;
+	color: white;
+	padding-left: 30px
+}
+.navbar-right {
+margin-right: 12px;
+}
+.form-group{
+position: relative
+}
+
+.form-control{
+	margin-top: 5px;
+	width: 285px;
+	border-radius: 100px;
+	height: 40px;
+	position: relative;
+	padding-left: 43px;
+}
+.form-group i{
+	position: absolute;
+top: 12px;
+	left: 20px
+}
+
+
+
+
+
+.slider{
+background:white;
+	padding-top: 30px;
+	padding-bottom: 60px
+}
+
+.welcome h1{
+font-size: 50px
+}
+.welcome span{
+	font-weight: bold;
+	
+}
+.welcome .left{
+	padding-top: 30px
+}
+.welcome .left p{
+	color: #686f75;
+	padding-left: 0
+}
+.welcome .left button{
+	background: #FF3700;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 20px;
+	border: none
+}
+
+.make_appoiment .forms{
+	background:#FFFFFF;
+	box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 1px 0px 19px 7px rgb(188, 188, 189);
+	
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 6px;
+	border: 1px solid #E5E5E5;
+	margin-top: -50px;
+	padding-left: 13px
+}
+.make_appoiment .forms .input-group input{
+	width: 288px;
+	border-radius: 40px;
+	margin-bottom: 20px
+}
+.forms select{
+    height: 45px;
+    text-align: left;
+    width: 291px;
+    border-radius: 48px;
+	    border: 1px solid #ccc;
+
+}
+.forms .sub input{
+	background: #FF3700;
+	color: white
+}
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden
+}
+
+.address h3{
+	padding-left: 25px;
+}
+.address p{
+	padding-left: 25px
+	}
+.address h3 {
+    border-left: 2px solid #0e89f1;
+    color: #545454;
+}
+.address h3 span{
+	color: #0e89f1;
+	font-weight: bold
+}
+
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.about img{
+	box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 1px 0px 19px 7px rgb(188, 188, 189);
+}
+.knowledge h4{
+	font-size: 25px;
+	line-height: 35px
+}
+.about .knowledge h4 span{
+	font-weight: bold;
+	
+}
+.knowledge button{
+	background: white;
+	border: 1px solid #FF3700;
+	padding: 10px 50px;
+	border-radius: 25px;
+	color:#7e7e7e
+}
+.knowledge button:hover{
+	background: #FF3700;
+	color: white
+}
+
+.services{
+	background: #edeef0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden
+}
+.service{
+	margin-bottom: 30px
+}
+.service i{
+    color: #6f6f6f;
+float: left
+}
+.services .service h4{
+	margin-bottom: 20px;
+	    font-size: 22px;
+	font-weight: bold;
+	margin-left: 30px
+}
+.services .service p{
+	font-size: 15px;
+	line-height: 27px;
+padding-left: 0px
+}
+.service span{
+	color: #FF3700;
+}
+
+
+.statics{
+	margin-top: 50px;
+	background: #a990d2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: aliceblue
+}
+
+.our-team{
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.our-team .right p{
+	margin-top: 21px
+}
+.our-team .doctors{
+	margin-top: 50px;
+}
+.our-team .doctors .doctor{
+	border: 2px solid rgba(220,220,220,1.00);
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	-webkit-transition:transform 1s ease;
+	-moz-transition:transform 1s ease;
+	-o-transition:transform 1s ease;
+	transition:transform 1s ease;
+	cursor: pointer
+}
+.our-team .doctors .doctor p{
+color:#7e7e7e;
+margin-top: -5px;
+padding: 0;
+}
+
+.our-team .doctors .doctor button{
+background: none;
+color: #FF3700;
+padding: 10px 27px;
+border: 1px solid;
+border-radius: 30px;
+margin-top: 50px
+}
+.our-team .doctors .doctor:hover{
+	-webkit-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+text-transform:scale(1.1,1.1) ;
+}
+
+
+.why{
+	background: #2d3035;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden
+}
+
+.why button{
+	background:#FF3700;
+color: white;
+padding: 10px 40px;
+border: 1px solid #FF3700;
+border-radius: 30px;
+margin-top: 30px
+}
+
+
+
+.provide{
+	background:#E3E3E3;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.provide button{
+	background:none;
+color: #FF3700;
+padding: 10px 30px;
+border: 1px solid #FF3700;
+border-radius: 30px;
+margin-top: 30px
+}
+.provide button:hover{
+	background:#FF3700;
+color: white;;
+
+}
+
+
+
+.latest{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+.latest .blog{
+	margin-top: 40px;
+	border: 1px solid rgba(220,220,220,1.00);
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+.blog img{
+	margin: auto
+}
+.blog h4{
+	padding-left: 20px;
+}
+.blog p{
+	padding-left: 20px;
+}
+.blog hr{
+	width: 314px;
+		border: 1px solid rgba(220,220,220,1.00);
+}
+.blog ul{
+	list-style-type: none;
+	margin-left: -19px
+}
+.blog ul li {
+	display: inline-block;
+	margin-right: 15px
+}
+.blog li .lead{
+	font-size: 17px
+}
+
+.footer{
+	background:  #E3E3E3;
+	padding-top: 70px;
+	padding-bottom: 40px;
+
+}
+
+.login-input{
+	margin-top: -123px;
+	margin-bottom: 65px;
+		box-shadow: Horizontal | Vertical | blur | spread | Color;
+    box-shadow: 1px 0px 13px 2px rgb(188, 188, 189);
+	background: white;
+	border: 1px solid rgba(239,239,239,1.00);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+
+}
+
+.login-input .input-group{
+	width: 330px;
+    margin: auto;
+}
+ 
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn{
+	border-radius: 50px
+}
+.footer h2{
+	font-size: 25px;margin-bottom: 35px;
+}
+.first-st p{
+	    color: #505050;
+}
+.two-st .menu-left{
+	list-style-type: none;
+	margin-left: -25px;
+	
+	float: left
+}
+.two-st li{
+	margin-bottom: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	color:#414141;
+}
+
+.two-st li:hover{
+color: #FF3700;	
+}
+.two-st .menu-right{
+	list-style-type: none;
+	float: left;
+	
+}
+.three-st i{
+	    color: #505050;
+
+}
+.three-st .lead{
+	    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.footer .me{
+	text-align: center;
+	margin-top: 20px;
+	color: #FF3700;	
+
+}
+
+
+.chat{
+   
+      right: 5px;
+    position: fixed;
+    bottom: 6px;
+    background: #ff3700;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+    display: none;
+
+}
+.chat i{
+	color: white
+}
+
+
+.chat-forms{
+	right:-555px;
+	position: fixed;
+	bottom: 0;
+	z-index: 999999999
+}
+.chat-forms .convers{
+	padding: 10px 20px;
+	border-radius: 5px;
+        background: #ff3700;
+
+}
+.chat-forms .convers h4{
+	letter-spacing: 5px;
+	color: white
+}
+.chat-forms .convers h4 i{
+	margin-left: 59px;
+    font-size: 15px;
+	cursor: pointer
+}
+.chat-inputs{
+	background: rgba(240,240,240,1.00);
+	padding: 20px;
+}
+
+.chat-inputs p{
+	padding-left: 0
+}
+.chat-inputs h5{
+	font-weight: bold
+}
+.chat-inputs input , textarea{
+	    width: 299px;
+    height: 40px;
+    background:rgba(221,221,221,1.00);
+    border: none;
+}
+textarea{
+	height: 100px
+}
+
+.chat-inputs button{
+    right: 30px;
+    position: absolute;
+    bottom: 13px;
+    background: #ff3700;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.error{
+	display: none
+}
